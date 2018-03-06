@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.hellowizz.testdraganddrop.MainActivity">
+
+
+    <ImageView
+        android:id="@+id/Pikachu"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/pikachu" />
+
+    <ImageView
+        android:id="@+id/Pikachu2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/pikachu" />
+
+    <ImageView
+        android:id="@+id/violet"
+        android:layout_width="100dp"
+        android:layout_height="70dp"
+        app:srcCompat="@drawable/violet"/>
+
+    <ImageView
+        android:id="@+id/violet2"
+        android:layout_width="100dp"
+        android:layout_height="70dp"
+        app:srcCompat="@drawable/violet"/>
+</android.support.constraint.ConstraintLayout>
